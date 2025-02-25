@@ -1,1 +1,69 @@
 # ALX.001
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB vs CMYK</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>RGB vs CMYK - Entendendo os Modelos de Cor</header>
+    <div class="container">
+        <h2>O que é RGB?</h2>
+        <p>O modelo RGB (Red, Green, Blue) é um sistema de cores aditivas usado em dispositivos eletrônicos, como telas de computadores e celulares. As cores são formadas combinando luzes vermelha, verde e azul em diferentes intensidades.</p>
+        <img src="rgb_example.jpg" alt="Exemplo de cores no modelo RGB">
+        
+        <h2>Funcionamento do Pixel no RGB</h2>
+        <p>Em telas digitais, cada pixel é composto por três subpixels: vermelho, verde e azul. A variação da intensidade dessas cores cria a percepção de uma ampla gama de cores.</p>
+        <img src="rgb_pixel.jpg" alt="Exemplo de pixels RGB">
+        
+        <h2>O que é CMYK?</h2>
+        <p>O modelo CMYK (Cyan, Magenta, Yellow, Black) é um sistema de cores subtrativas usado na impressão. As cores são criadas subtraindo luz refletida do papel, misturando tintas ciano, magenta, amarelo e preto.</p>
+        <img src="cmyk_example.jpg" alt="Exemplo de cores no modelo CMYK">
+        
+        <h2>RGB vs CMYK</h2>
+        <p>RGB é ideal para telas, pois utiliza luz para formar cores vibrantes. CMYK é melhor para impressão, pois mistura tintas para obter cores precisas no papel. Ao converter imagens de RGB para CMYK, algumas cores podem ser alteradas devido às limitações do processo de impressão.</p>
+        <img src="rgb_vs_cmyk.jpg" alt="Comparação entre RGB e CMYK">
+    </div>
+</body>
+</html>
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.6;
+}
